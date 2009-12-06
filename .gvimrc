@@ -4,12 +4,6 @@
 " fullscreen maximizes vertically AND horizontally
   set fuoptions=maxvert,maxhorz
 
-" Width of window.
-  " set columns=136
-
-" Height of window.
-  " set lines=40
-
 " Don't focus the window when the mouse pointer is moved.
   set nomousefocus
 
