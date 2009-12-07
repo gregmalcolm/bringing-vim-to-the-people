@@ -1,5 +1,5 @@
 " Set the guifont
-  set guifont=Inconsolata:h13
+  set guifont=Inconsolata:h14
 
 " fullscreen maximizes vertically AND horizontally
   set fuoptions=maxvert,maxhorz
@@ -57,9 +57,6 @@
   nmap <D-[> <<
   vmap <D-[> <<
   imap <D-[> <C-O><<
-
-" Unmap Apple+T so we can...
-  macmenu &File.New\ Tab key=<nop>
 
 " Change Apple+T to TextMate Like Fuzzy Finder
   nnoremap <D-t> :FuzzyFinderTextMate<CR>
