@@ -1,5 +1,5 @@
 " Set the guifont
-  set guifont=Panic\ Sans:h13
+  set guifont=Inconsolata:h13
 
 " fullscreen maximizes vertically AND horizontally
   set fuoptions=maxvert,maxhorz
