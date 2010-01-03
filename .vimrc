@@ -119,4 +119,10 @@ runtime! custom/fuzzy_finder_config.vim
 " bind control-l to hashrocket
 imap <C-l> <Space>=><Space>
 
+" bind command-v to paste from clipboard
+imap <D-v> "+p
+
+" bind command-c to copy to clipboard
+imap <D-c> "+y
+
 source ~/.vim/snippets/support_functions.vim
