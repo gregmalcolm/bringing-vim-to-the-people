@@ -7,3 +7,6 @@
 " Use FuzzyFinder to replace built-in tag navigation :tag and <C-]>:
   nnoremap <silent> <C-f><C-t> :FuzzyFinderTag!<CR>
   nnoremap <silent> <C-]>      :FuzzyFinderTag! <C-r>=expand('<cword>')<CR><CR>
+
+" Reload FuzzyFinder with <F5>
+  map <F5> :ruby @finder = nil<cr>
