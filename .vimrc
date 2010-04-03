@@ -125,4 +125,7 @@ imap <C-v> "+p
 " bind control-c to copy to clipboard
 imap <C-c> "+y
 
+" bind ; to :
+:nmap ; :
+
 source ~/.vim/snippets/support_functions.vim
