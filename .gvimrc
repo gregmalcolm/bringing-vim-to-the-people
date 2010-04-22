@@ -1,5 +1,5 @@
 " Set the guifont
-  set guifont=Inconsolata:h14
+  set guifont=Inconsolata\ Medium\ 13
 
 " Don't focus the window when the mouse pointer is moved.
   set nomousefocus
