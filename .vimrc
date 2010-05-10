@@ -106,14 +106,15 @@ command! -nargs=0 RebuildTagsFile call s:RebuildTagsFile()
 " endif
 
 " * Load external config
-runtime! custom/statusbar_config.vim
-runtime! custom/ruby_and_rails_config.vim
 runtime! custom/clojure_config.vim
-runtime! custom/vimshell_config.vim
-runtime! custom/taglist_config.vim
-runtime! custom/search_config.vim
+runtime! custom/command_t_config.vim
 runtime! custom/nerdcommenter_config.vim
 runtime! custom/nerdtree_config.vim
+runtime! custom/ruby_and_rails_config.vim
+runtime! custom/search_config.vim
+runtime! custom/statusbar_config.vim
+runtime! custom/taglist_config.vim
+runtime! custom/vimshell_config.vim
 
 " bind control-l to hashrocket
 imap <C-l> <Space>=><Space>
