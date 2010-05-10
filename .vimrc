@@ -114,7 +114,6 @@ runtime! custom/taglist_config.vim
 runtime! custom/search_config.vim
 runtime! custom/nerdcommenter_config.vim
 runtime! custom/nerdtree_config.vim
-runtime! custom/fuzzy_finder_config.vim
 
 " bind control-l to hashrocket
 imap <C-l> <Space>=><Space>

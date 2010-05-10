@@ -45,5 +45,5 @@
   map <silent> <A-8> :tabn 8<CR>
   map <silent> <A-9> :tabn 9<CR>
 
-" Change Control+T to TextMate Like Fuzzy Finder
-  nnoremap <C-t> :FuzzyFinderTextMate<CR>
+" Go to file (Command-T plugin)
+nnoremap <C-t> :CommandT<CR>
