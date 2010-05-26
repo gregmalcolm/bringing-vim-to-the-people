@@ -59,7 +59,7 @@
   imap <D-[> <C-O><<
 
 " Change Apple+T to TextMate Like Fuzzy Finder
-  nnoremap <D-t> :FuzzyFinderTextMate<CR>
+  nnoremap <D-t> :PeepOpen<CR>
 
 " Unmap Apple+Shift+T so we can...
   macmenu &File.Open\ Tab\.\.\. key=<nop>
