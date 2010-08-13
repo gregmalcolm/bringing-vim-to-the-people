@@ -58,14 +58,17 @@
   vmap <D-[> <<
   imap <D-[> <C-O><<
 
+" Unmap Apple+T so we can...	 	
+  macmenu &File.New\ Tab key=<nop>
+
 " Change Apple+T to TextMate Like Fuzzy Finder
-  nnoremap <D-t> :PeepOpen<CR>
+  nnoremap <D-t> :CommandT<CR>
 
 " Unmap Apple+Shift+T so we can...
   macmenu &File.Open\ Tab\.\.\. key=<nop>
 
 " Change Apple+Shift+T to TextMate Like Fuzzy Finder
-  nnoremap <D-T> :FuzzyFinderTag!<CR>
+  nnoremap <D-T> :FufFile!<CR>
 
 " Unmap Apple+b so we can...
   macmenu &Tools.Make key=<nop>
