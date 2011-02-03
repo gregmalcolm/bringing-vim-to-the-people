@@ -120,12 +120,15 @@ runtime! custom/vimshell_config.vim
 imap <C-l> <Space>=><Space>
 
 " bind control-v to paste from clipboard
-imap <C-v> "+p
+imap <C-C> "*p
 
 " bind control-c to copy to clipboard
-imap <C-c> "+y
+imap <C-c> "*y
 
 " bind ; to :
-:nmap ; :
+nmap ; :
 
 source ~/.vim/snippets/support_functions.vim
+
+cmap w!! %!sudo tee > /dev/null %
+
