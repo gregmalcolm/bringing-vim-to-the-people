@@ -65,3 +65,4 @@ map !S :call RunSpec("")
 
 " Go to file (Command-T plugin)
 nnoremap <C-t> :CommandT<CR>
+
