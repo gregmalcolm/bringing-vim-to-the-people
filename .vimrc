@@ -131,4 +131,4 @@ nmap ; :
 source ~/.vim/snippets/support_functions.vim
 
 cmap w!! %!sudo tee > /dev/null %
-
+noremap nnoremap <C-t> :CommandT<CR>
